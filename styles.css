@@ -1,0 +1,49 @@
+body {
+    background-color: ghostwhite; /* цвета фона для страницы */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 110px;
+    background-color: #eee; /* цвет фона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 15px #929292;
+}
+footer {
+    box-shadow: 0 -2px 15px #929292;
+    background-color: #eee;
+    height: 110px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+}
+main {
+    min-height: calc(100vh - 220px);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 39pt;
+    box-shadow: 0 0 10px #929292;
+    padding: 40px;
+    margin: 40px;
+    width: 30%;
+}
+
+@media (max-width: 1023px) {
+    .card {
+        width: 100% !important;
+    }
+}
