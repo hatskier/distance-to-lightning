@@ -25,7 +25,15 @@
                     </p>
                 </div>
                 <div class="calculator card">
-                    <h1>Calculator</h1>
+                    <h2>Задержка между вспышкой молнии и звуком</h2>
+                    <form onsubmit="onFormSubmit(); return false;">
+                        <label id="seconds-label" for="seconds">Секунды</label>
+                        <input type="text" id="seconds-input" name="seconds">
+                        <br />
+                        <input id="submit-button" type="submit" value="Рассчитать">
+                    </form>
+
+                    <div id="answer"></div>
                 </div>
             </div>
         </main>
@@ -33,5 +41,7 @@
         <footer>
             &copy; мяу:З
         </footer>
+
+        <script src="main.js"></script>
     </body>
 </html>
