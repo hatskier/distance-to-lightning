@@ -102,6 +102,6 @@ form {
 
 @media (max-width: 1023px) {
     .card {
-        width: 100% !important;
+        width: 100%;
     }
 }
